@@ -1,0 +1,113 @@
+/* style.css */
+
+/* Global Styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Header Styles */
+.header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+}
+
+.header h1 {
+  margin: 0;
+}
+
+/* Navigation Styles */
+.navbar {
+  background-color: #555;
+  padding: 10px;
+}
+
+.navbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.navbar li a {
+  color: #fff;
+  text-decoration: none;
+  padding: 5px;
+}
+
+.navbar li a:hover {
+  background-color: #777;
+}
+
+/* Main Content Styles */
+.main-content {
+  background-color: #fff;
+  padding: 20px;
+}
+
+/* Footer Styles */
+.footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+.footer p {
+  margin: 0;
+}
+
+/* Component Styles */
+.component {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.component h2 {
+  margin: 0;
+}
+
+.component p {
+  margin: 0;
+}
+
+.component .price {
+  font-weight: bold;
+}
+
+.component .compatibility {
+  color: red;
+  font-style: italic;
+}
+
+/* Button Styles */
+.button {
+  background-color: #555;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: #777;
+}
+
+.button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
